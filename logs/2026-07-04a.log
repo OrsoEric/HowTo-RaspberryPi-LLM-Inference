@@ -1,0 +1,35 @@
+# SD CARD I
+user: raspi
+pwd: raspi
+
+Last login: Tue Jun 16 11:36:08 2026 from 192.168.1.199
+raspi@rpi5-orso-1:~ $ ~/llama.cpp/build/bin/llama-cli   -m ~/models/Qwen2.5-Omni-3B-Q4_K_M.gguf   -t 6   -c 2048   -b 256   -ub 64   -n 256   -p "What do you get if you multiply six by nine?"   --no-warmup
+
+Loading model...
+
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b9670-02810c7aa
+model      : Qwen2.5-Omni-3B-Q4_K_M.gguf
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+> What do you get if you multiply six by nine?
+
+The product of six and nine is 54.
+
+[ Prompt: 26.3 t/s | Generation: 6.1 t/s ]
